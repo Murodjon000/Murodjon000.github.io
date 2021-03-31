@@ -18,6 +18,9 @@
   color: var(--gray-200);
 }
 
+.active {
+  color: var(--gray-200) !important;
+}
 
 .mob_box{
     /* float: right; */

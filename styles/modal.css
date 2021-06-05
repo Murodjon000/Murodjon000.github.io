@@ -103,6 +103,10 @@
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 } */
 
+.modal__image {
+  height: 450px;
+}
+
 
  @media only screen and (max-width: 835px) {
 
@@ -118,6 +122,11 @@
     animation-duration: 0.4s */
   }
 
+  .modal__image {
+    height: 400px;
+  }
+
+  
   .inner__modal{
     transform: scale(.75);
   }
@@ -138,6 +147,11 @@
     animation-duration: 0.4s */
   }
 
+  .modal__image {
+    height: 300px;
+  }
+  
+
   .inner__modal{
     transform: scale(.75);
   }
@@ -157,6 +171,10 @@
     animation-duration: 0.4s */
   }
 
+  .modal__image {
+    height: 250px;
+  }
+  
   .inner__modal{
     transform: scale(.75);
   }
@@ -175,6 +193,11 @@
     animation-name: animatetop;
     animation-duration: 0.4s */
   }
+
+  .modal__image {
+    height: 200px;
+  }
+  
 
   .inner__modal{
     transform: scale(.75);
@@ -195,7 +218,13 @@
     animation-duration: 0.4s */
   }
 
+  .modal__image {
+    height: 180px;
+  }
+  
+
   .inner__modal{
     transform: scale(.75);
   }
 } 
+
